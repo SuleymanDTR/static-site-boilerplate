@@ -1,0 +1,35 @@
+{
+  "name": "static-site-boilerplate",
+  "version": "1.0.0",
+  "description": "Static site boilerplate with Pug,Sass and using Gulp for task automation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuleymanDTR/static-site-boilerplate.git"
+  },
+  "keywords": [
+    "pug",
+    "sass",
+    "gulp",
+    "static",
+    "site",
+    "boilerplate"
+  ],
+  "author": "Süleyman Danalıoğlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuleymanDTR/static-site-boilerplate/issues"
+  },
+  "homepage": "https://github.com/SuleymanDTR/static-site-boilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
